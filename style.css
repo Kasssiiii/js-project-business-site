@@ -81,7 +81,11 @@ nav a:hover {
 
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bold;  
+}
+
+.hamburger {
+  display: none;
 }
 
 /*Hero section*/
@@ -263,5 +267,8 @@ footer a:hover {
   }
   nav {
     display: none;
+  }
+  .hamburger {
+    display: block;
   }
 }
