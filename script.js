@@ -1,6 +1,6 @@
-//  Make it interactive using JavaScript
-// so that when you click, all links in your navbar become visible,
-// and when you click again, they are hidden
+//  Make the site interactive using JavaScript
+// so that when the user clicks, all links in your navbar become visible,
+// and when clicked again, they are hidden
 
 const hamburgerButton = document.getElementById("hamburgerID");
 const nav = document.getElementById("nav");

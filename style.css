@@ -125,8 +125,15 @@ nav a:hover {
 
 /* Signup Form */
 .signup {
+  width: 33%;
+  max-width: 400px;
   padding: 2rem;
   text-align: center;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px #0000001a;
+  background-color: #fff;
 }
 
 .form-group {
@@ -142,7 +149,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-  width: calc(100% - 22px); /* Adjust width to account for padding and border */
+  width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -160,9 +167,11 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
 }
 
-/* Focus Effect (Stretch Goal) */
+/* Focus Effect  */
 input:focus {
   border-color: #0056b3;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
