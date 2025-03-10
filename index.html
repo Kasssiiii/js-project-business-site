@@ -27,6 +27,7 @@
         <li><a href="#">About us</a></li>
         <li><a href="https://discoverhalifaxns.com/" target="_blank">About Halifax, NS, CA</a></li>
         <li><a href="#">Work with us</a></li>
+        <li><a href="#" id="newsletter">Newsletter</a></li>
       </ul>
     </nav>
   </header>
@@ -50,27 +51,8 @@
       </div>
     </section>
 
-    <!--Newsletter sign up pop-up (not using it for now)
-    <div id="newsletterPopup" class="popup">
-      <div class="popup-content">
-      <h2>Subscribe to Our Newsletter</h2>
-        <form id="signupForm" action="https://httpbin.org/anything" method="post">
-          <div class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <button type="submit">Subscribe</button>
-        </form>
-        <span class="close-btn">&times;</span> 
-      </div>
-    </div>-->
-
-    <section class="signup">
-      <h2>Subscribe to Our Newsletter</h2>
+    <section class="signup-container" id="newsletterForm">
+      <h3>Subscription Form</h3>
       <form id="signupForm" action="https://httpbin.org/anything" method="post">
         <div class="form-group">
           <label for="name">Name:</label>
@@ -89,7 +71,7 @@
           <label><input type="checkbox" name="interests" value="3bedroom"> 3-bedroom apartments</label>
           <label><input type="checkbox" name="interests" value="4bedroom"> 4-bedroom apartments</label>
         </div>
-        <button type="submit">Subscribe</button>
+        <button type="submit">Subscribe to Our Newsletter</button>
       </form>
     </section>
 

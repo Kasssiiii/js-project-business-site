@@ -14,3 +14,11 @@ hamburgerButton.onclick = () => {
     nav.style.display = "block";
   }
 };
+
+//Newsletter sign-up action functions
+const newsletter = document.getElementById("newsletter");
+const newsletterForm = document.getElementById("newsletterForm");
+newsletter.onclick = () => {
+  //function below makes the Newsletter form appear
+  newsletterForm.style.display = "block";
+}
